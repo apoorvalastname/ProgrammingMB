@@ -1,0 +1,15 @@
+
+XML representation of Student data
+
+<?xml version="1.0"?>
+    <student-details>
+        <name>studentname1</name>
+        <grade>9th grade</grade>
+        <school>schoolname1</school>
+    </student-details>
+    <student-details>
+        <name>studentname2</name>
+        <grade>6th grade</grade>
+        <school>schoolname2</school>
+    </student-details>
+

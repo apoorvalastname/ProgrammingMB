@@ -1,0 +1,14 @@
+
+{
+    "student-details" : 
+     [
+        "name" : "studentname1",
+        "grade" : "9th grade",
+        "school" : "schoolname1"
+     ],
+     [
+        "name" : "studentname1",
+        "grade" : "6th grade",
+        "school" : "schoolname1"
+     ]
+}
