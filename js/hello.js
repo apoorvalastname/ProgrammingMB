@@ -1,3 +1,4 @@
+operation = "add "
 
 function doMath (op='+')
 {
@@ -7,14 +8,18 @@ function doMath (op='+')
     {
         case '+' :
             document.getElementById("n3").value = n1+n2
+	    operation = "add "
             break;
         case '-' :
             document.getElementById("n3").value = n1-n2
+	    operation = "subtract "
             break;
         case 'x' :
             document.getElementById("n3").value = n1*n2
+	    operation = "multiply "
             break;
         case '/' :
+	    operation = "divide "
             if (n2 == 0)
                 alert ("The divisor can NOT be 0!")
             else
@@ -24,5 +29,9 @@ function doMath (op='+')
             alert ("Incorrect Operation")   
     }
 }
-
-
+function describeOperation()
+{
+    document.getElementById("p1").innerText = "When you " + operation + document.getElementById("n1").value + 
+					      " and " + document.getElementById("n2").value + 
+					      ", you get " + document.getElementById("n3").value
+}
