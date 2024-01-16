@@ -6,14 +6,28 @@
 <body>
 
 <h1>Math Space</h1>
-<input type="text" id="n1">
-<input type="text" id="n2">
-<input type="text" id="n3">
+
+<label for="f1name">Enter a number :</label>
+<input type="text" id="n1" name="f1name">
+<br>
+
+<label for="f2name">Enter another number :</label>
+<input type="text" id="n2" name="f2name">
 <br><br>
+
 <button onclick="doMath('+')">ADD</button>
 <button onclick="doMath('-')">SUB</button>
 <button onclick="doMath('x')">MUL</button>
 <button onclick="doMath('/')">DIV</button>
+<br><br>
+
+<label for="f3name">Output of the operation : </label>
+<input type="text" id="n3" name="f3name">
+<br><br>
+
+<button onclick="describeOperation()">Describe Operation</button>
+<p id="p1"></p>
+
 <script src="hello.js"></script>
 </body>
 </html>
