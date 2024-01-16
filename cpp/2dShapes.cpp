@@ -34,7 +34,7 @@ class Shape2D
         {
             return circumference;
         }
-        double printShape()
+        void printShape()
         {
             std::cout << "Shape         : " << getName() << std::endl; 
             std::cout << "Area          : " << getArea() << std::endl; 
