@@ -51,6 +51,12 @@ void lineEquation (int x1, int y1, int x2, int y2)
     printf ("Equation of the line is : y = %0.2fx + %0.2f \n", m, c);
 }
 
+// Requirement5
+// Find the y intercept (y intercept is c)
+// Find the x intercept (x intercept is -c/m)
+// From the above function lineEquation(), separate out m and c into separate functions
+// Use these new functions to write xIntercept() and yIntercept() functions
+
 int main()
 {
     int x1, y1, x2, y2;
@@ -76,6 +82,9 @@ int main()
     {
         printf ("Line is Not Parallel to x or y axis! \n");
         lineEquation (x1, y1, x2, y2);
+        // Requirement5
+        // xIntercept (x1, y1, x2, y2);
+        // yIntercept (x1, y1, x2, y2);
     }
     return 0;
 }
