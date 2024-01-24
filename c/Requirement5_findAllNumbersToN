@@ -2,8 +2,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-/*  Prime Number finder - Find all prime numbers before the number n
-*/
+//  Prime Number finder - Find all prime numbers before the number n
 bool isPrimeNumber (int num)
 {
     for (int i=2; i<=num/2; i++) // Loop starting from 2, till the number num/2
@@ -23,6 +22,7 @@ void printAllPrimeNumbersTo (int n)
     }    
 }
 
+// Requirement5
 // From 0 to n, Print all numbers that are divisible by 3.
 /* void printAllNumbersDivisibleBy3 (int n)
    {
@@ -36,6 +36,6 @@ int main()
     printf ("Enter the number n to find all prime numbers before that : ");
     scanf ("%d", &n);
     printAllPrimeNumbersTo (n);
-    // printAllNumbersDivisibleBy3 (n);
+    // printAllNumbersDivisibleBy3 (n); // Requirement5
     return 0;
 }
