@@ -1,24 +1,28 @@
 
-# datatypes and operations
+# Datatypes and Operators
+
 math = 90
 science = 85
 languageArts = 80
 pe = 95
-score = math + science + languageArts + pe
-print (score, '\n')
+total = math + science + languageArts + pe
+average = total / 4;
+print ("Total : ", total, ", Average : ", average, '\n')
 
-# if/else
-if  score >= 350 : 
-  award = "Platinum"
-elif score >= 300 :
-  award = "diamond"
-elif score >= 250 :
-  award = "gold"
-elif score >= 250 :
-  award = "silver"
-else:
-  award = "bronze"
-print (score, award, '\n')
+# ---------------------------------------------
+# Input and Output
+
+name = input ("Enter your name ")
+age  = input ("Enter your age ")
+age  = int (age)
+
+# If / Else
+if (age < 10) : 
+	print ("Too young for Scouts BSA")
+elif (age > 18) :
+	print ("Too old for Scouts BSA")
+else :
+	print ("Welcome to Scouts BSA")
 
 # list
 subjects = ["math", "science", "languageArts", "pe"]
