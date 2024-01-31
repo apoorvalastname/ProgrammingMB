@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cards Game</title>
+</head>
+<body style="background-color:lightgreen;">
+<h1>Cards Game</h1>
+
+<p>
+<input type="text" id="input1" style="width: 150px">
+<input type="text" id="input2" style="width: 150px">
+<input type="text" id="input3" style="width: 150px">
+</p>
+
+<p>
+<img alt="" src="images/none.jpeg" 
+	style="height: 185px; width: 158px" id="image1" onclick="changeImage(1)"/>
+<img alt="" src="images/none.jpeg" 
+    style="height: 185px; width: 158px" id="image2" onclick="changeImage(2)"/>
+<img alt="" src="images/none.jpeg" 
+    style="height: 185px; width: 158px" id="image3" onclick="changeImage(3)"/>
+</p>
+
+<button onclick="resetImages()"  style="background-color: darkgrey; height: 55px; width: 500px; font-size:30px">Reset</button>
+
+<p id="output" style="font-size:30px; background-color: orange"></p>
+<script src="cards_game.js"></script>
+</body>
+</html>
