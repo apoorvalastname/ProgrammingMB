@@ -3,6 +3,10 @@ function resetFunction ()
 	location.reload();
 }
 
+// Requirement5 - Modify the doneFunction() to do the following :
+// If the super power is "Super Strength", alert/inform the user about who else has the same power (Eg.Hercules)
+// Add a few more super powers of your choice and try 'alert' with them.
+
 function doneFunction (count)
 {
 	let success = true
@@ -18,7 +22,7 @@ function doneFunction (count)
 	}
 	if (success == true)
 	{
-		alert ("COOL!! GREAT SUPER HEROS!");
+		alert ("AWESOME SUPER POWERS!!");
 	}
 	else
 	{
