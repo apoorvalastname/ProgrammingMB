@@ -31,7 +31,7 @@ public class Main
         int languageArts = 80; 
         int geography = 95; 
     
-        // OPERATORS
+		// OPERATORS (+, -, *, /, %, &&, ||, !)  
         total = math + science + languageArts + geography; 
         average =  (float) total / 4;   
 	    

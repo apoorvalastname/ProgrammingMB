@@ -31,7 +31,7 @@ int main()
     int languageArts = 80; 
     int geography = 95; 
 
-	// OPERATORS
+	// OPERATORS (+, -, *, /, %, &&, ||, !)  
     total = math + science + languageArts + geography; 
     average =  (float) total / 4;   
     
@@ -101,7 +101,7 @@ int main()
     }    
 	
 	// While loop
-	std::string word = "go";
+	std::string word = "go";    
 	while (word != "stop")
 	{
 		std::cout << "Enter word : ";

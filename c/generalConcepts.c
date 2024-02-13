@@ -23,7 +23,7 @@ int main()
     int languageArts = 80;
     int geography = 95;
 
-    // OPERATORS
+	// OPERATORS (+, -, *, /, %, &&, ||, !)  
     total = math + science + languageArts + geography;
     avg =  (float) total / 4;
     printf ("Average : %0.2f\n", avg);
@@ -53,6 +53,7 @@ int main()
     int score[10] = {100,69,80,90,75,66,70,84,98,87};
     for (int i=0; i<10; i++)
         printf ("%d ", score[i]);
+
     // While loop
     char word[30] = {};
     while (strcmp(word, "stop"))
