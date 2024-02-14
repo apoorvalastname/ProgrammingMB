@@ -30,7 +30,7 @@ class ScoutRank
         scoutRankEnum rank;
         std::string rankInString;
         
-        
+        // This method takes in the 'rank' string and updaates the 'rank' enum 
         void updateRank (std::string &rankString)
         {
             rankInString = processRankString (rankString);
@@ -168,6 +168,10 @@ class MeritBadge
             std::cout << " Swim Testing : "<< (swimTestingNeeded ? "Yes":"No") << std::endl << std::endl;
         }
 };
+
+// This function checks to see the scout meets the requirements for the merit badge.
+// If the scout meets the requirements, the function returns 'true'
+// else, it returns 'false'
 
 bool canScoutTakeMB (Scout &s, MeritBadge &mb)
 {
