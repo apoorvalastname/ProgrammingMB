@@ -4,11 +4,6 @@
 // Requirement5 - Ask the user how many video games they want to Enter
 // Update the function to read that many videogames and favorite characters
 // Return the number of videogames the user entered.
-//          OR
-// Update the function to ask the user everytime if he wants to add another 
-// videogame or not. If the user says 'y', ask him to enter another videogame
-// and favorite character. If the user says anything other than 'y', return 
-// from the function.
 int inputVideoGames ()
 {
     std::string name, videogame, favorite; 
