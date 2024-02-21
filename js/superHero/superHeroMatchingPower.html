@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Super Hero</title>
+</head>
+<body style="background-color:lightblue;">
+<h1>Super Hero</h1>
+
+<datalist id="superHeros">
+</datalist>
+<datalist id="superPowers">
+</datalist>
+
+<p>
+<label for="nameLabel0">Super Hero Name</label>
+<input type="text" id="nameInput0" onfocus="superhero(0)" name="nameLabel0" list="superHeros">
+
+<label for="superPowerLabel0">Super Power</label>
+<input type="text" id="superPowerInput0" onfocus="superpower(0)" name="superPowerLabel0" list="superPowers">
+</p>
+
+<p>
+<label for="nameLabel1">Super Hero Name</label>
+<input type="text" id="nameInput1" onfocus="superhero(1)" name="nameLabel1" list="superHeros">
+
+<label for="superPowerLabel1">Super Power</label>
+<input type="text" id="superPowerInput1" onfocus="superpower(1)" name="superPowerLabel1" list="superPowers">
+</p>
+
+<p>
+<label for="nameLabel2">Super Hero Name</label>
+<input type="text" id="nameInput2" onfocus="superhero(2)" name="nameLabel2" list="superHeros">
+
+<label for="superPowerLabel2">Super Power</label>
+<input type="text" id="superPowerInput2" onfocus="superpower(2)" name="superPowerLabel2" list="superPowers">
+</p>
+
+<p>
+<button id="reset" onclick="resetFunction()">RESET</button>
+<button id="done" onclick="doneFunction(3)">DONE</button>
+</p>
+
+<p id="justprint">
+</p>
+
+<script src="superHeroMatchingPower.js"></script>
+</body>
+</html>
